@@ -1,0 +1,259 @@
+@font-face {
+  font-family: "AnonymousPro-Bold" ;
+  src: url(AnonymousPro-Bold.ttf);
+}
+@font-face {
+  font-family: "AnonymousPro-Regular" ;
+  src: url(AnonymousPro-Regular.ttf);
+}
+body {
+  background-color: #F1F1F1;
+  margin: 0px;
+  padding: 0px;
+  overflow: overlay;
+  background-size: 100vw;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.header_full {
+  width: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.header {
+  width: 1161px;
+  display: flex;
+  background-color: #FFFFFF;
+  min-height: 110px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  border-bottom: 1px solid #A1A6B4;
+}
+
+.header_container {
+  display: flex;
+  gap: 24px;
+  font-size: 20px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.main_container{
+  width: 100%;
+  max-width: 1161px;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+}
+.us_flex-div {
+  display: flex;
+  flex-direction: column;
+}
+
+.point:active {
+  text-decoration: none;
+}
+
+.point:hover {
+  text-decoration: none;
+}
+
+.point {
+  text-decoration: none;
+  color: black;
+  font-family: "AnonymousPro-Bold";
+  text-decoration: none;
+
+}
+
+.header_p {
+  text-decoration: none;
+  color: black;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+}
+
+.container_main {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 1160px;
+ 
+}
+
+.container_boot {
+  display: flex;
+  flex-direction: row;
+  max-width: 1313px;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 24px;
+  padding-bottom: 25px;
+  justify-content: center;
+  font-family: "AnonymousPro-Bold";
+}
+
+.container_boots {
+  width: 100%;
+  margin: 0;
+  padding-top: 32px;
+  padding-bottom: 24px;
+  box-sizing: border-box;
+  background-color: #FFF;
+  border-radius: 0px 0px 10px 10px;
+  overflow: hidden;
+}
+
+.ustexts {
+  margin: 0;
+  font-family: "AnonymousPro-Bold";
+  font-size: 26px;
+  font-style: normal;
+  padding-left: 24px;
+  padding-right: 24px;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.ustext {
+  margin: 0;
+  margin-top: 10px;
+  font-family: "AnonymousPro-Regular";
+  font-size: 20px;
+  font-style: normal;
+  padding-left: 24px;
+  padding-right: 24px;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.font_text {
+  color: #121723;
+  display: flex;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 100%;
+}
+
+.main_text {
+  font-family:"AnonymousPro-Bold" ;
+  font-size: 48px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  margin: 0;
+  align-self: flex-start;
+}
+
+.footer{
+  background-color: black;
+  display: flex;
+ justify-content: center;
+}
+
+.footer_container {
+  max-width: 1161px;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.footer_container_full{
+  display: flex;
+  flex-direction: row;
+  margin-top: 27px;
+  padding-bottom: 27px;
+  justify-content: space-between;
+  border-bottom: 1px solid #E6E8EC66;
+}
+
+.footer_end {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.end_footer {
+  color: #A1A6B4;
+  font-family:  "AnonymousPro-Bold";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.footer_icon-container {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.footer_link {
+  text-decoration: none;
+  color: white;
+  font-family:  "AnonymousPro-Bold";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+img.service {
+  width: 371px;
+  height: 254px;
+  padding: 0;
+  overflow-wrap: normal;
+}
+@media screen and (max-width:770px) {
+  .header{
+      justify-content: center;
+      flex-direction: column;
+  }
+}
+@media screen and (max-width: 768px) {
+  .header_title {
+      font-size: 28px;
+      max-width: unset;
+      padding-left: 0px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .header_container {
+      padding: 0px;
+  }
+}
+@media screen and (max-width:1160px) {
+  .footer_container_full{
+      flex-direction: column;
+      align-items: center;
+  }
+}
+@media screen and (max-width:675px) {
+  .main_text{
+      font-size: 30px;
+      justify-content: center;
+      align-self: center;
+  }
+}
+@media screen and (max-width:430px) {
+  .main_text{
+      font-size: 25px;
+  }
+}
+@media screen and (max-width:360px) {
+  .main_text{
+      font-size: 20px;
+  }
+}
