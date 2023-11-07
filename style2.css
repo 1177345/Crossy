@@ -257,3 +257,16 @@ img.service {
       font-size: 20px;
   }
 }
+body .us_flex-div{
+  animation-name: rol;
+  animation-duration: 2.3s;
+  animation-iteration-count: 1;
+}
+@keyframes rol{
+  0%{
+    transform: translateX(-700%) rotate(0deg);
+  }
+  100%{
+  transform: translateX(0) rotate(3600deg);
+  }
+}
